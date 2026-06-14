@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* display: flex;
+    justify-content: center; */
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 98, 184);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(220deg, rgb(152, 255, 240), white);
+}
+
+#temp {
+    text-align: center;
+    font-size: 10rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+#city {
+    font-size: 3rem;
+}
+
+#wind {
+    text-align: center;
+    font-size: 3rem;
+}
+
+img {
+    position: relative;
+    top: 5px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#wind_icon {
+    position: relative;
+    top: -5px;
+}
+
+#position_for_location {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+
+#position_for_wind {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.082);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2vw;
+    box-shadow: 1px 1px 10px rgba(8, 156, 193, 0.411);
+}
